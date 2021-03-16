@@ -8,13 +8,9 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Alexx Bachicha</h2>
-                        <img
-                        src="https://lh3.googleusercontent.com/znz9d_kpK4XKpf5K2T-z3ZCUOFKBFkHkvDG66Zn_cwZFdNA6Co1YBJ00M-SYqqxuQTIViws=s97"
-                        alt="bitmoji"
-                        style={{height: '250px'}}
-                        />
+                        <img src="https://lh3.googleusercontent.com/znz9d_kpK4XKpf5K2T-z3ZCUOFKBFkHkvDG66Zn_cwZFdNA6Co1YBJ00M-SYqqxuQTIViws=s97" alt="bitmoji" style={{height: '250px'}}/>
                         <p style={{width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                            This is some text about me
+                            Feel free to reach out to me via phone, email or through Slack
                         </p>
                     </Cell>
 
@@ -26,21 +22,21 @@ class Contact extends Component {
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                                         <i className="fa fa-phone-square" aria-hidden="true"/>
-                                        (916) 123-1234
-                                    </ListItemContent>
-                                </ListItem>
-
-                                <ListItem>
-                                <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
-                                        <i className="fa fa-envelope" aria-hidden="true"/>
-                                        agbachicha@outlook.com
+                                        (916) 666-6666
                                     </ListItemContent>
                                 </ListItem>
 
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
+                                            <i className="fa fa-envelope" aria-hidden="true"/>
+                                            agbachicha@outlook.com
+                                        </ListItemContent>
+                                    </ListItem>
+
+                                <ListItem>
+                                    <ListItemContent style={{fontSize: '25px', fontFamily: 'Anton'}}>
                                         <i className="fa fa-slack" aria-hidden="true"/>
-                                        Alex Bachicha
+                                        @Alex Bachicha
                                     </ListItemContent>
                                 </ListItem>
                             </List>
