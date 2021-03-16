@@ -11,7 +11,7 @@ class Landing extends Component {
 
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
-                            
+
                             <hr/>
 
                             <p>HTML | CSS | Bootstrap | JavaScript | React | NodeJS | Express | MongoDB</p>
@@ -19,19 +19,19 @@ class Landing extends Component {
                             <div className="social-links">
                                 {/* LinkedIn */}
                                 <a href="https://www.linkedin.com/in/alex-bachicha-a10a6015b/" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                    <i className="fa fa-linkedin-square" aria-hidden="true"/>
                                 </a>
                                 {/* GitHub */}
                                 <a href="https://github.com/alexbachicha" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-github-square" aria-hidden="true" />
+                                    <i className="fa fa-github-square" aria-hidden="true"/>
                                 </a>
                                 {/* FreeCodeCamp */}
                                 <a href="https://www.instagram.com/cheecchx/" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-instagram" aria-hidden="true" />
+                                    <i className="fa fa-instagram" aria-hidden="true"/>
                                 </a>
                                 {/* YouTube */}
                                 <a href="http://youtube.com" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-youtube-square" aria-hidden="true" />
+                                    <i className="fa fa-youtube-square" aria-hidden="true"/>
                                 </a>
                             </div>
                         </div>
