@@ -4,12 +4,6 @@ import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/Main';
 import { Link } from 'react-router-dom';
 
-// function App() {
-//   return (
-//     <h1>Hello world</h1>
-//   )
-// }
-
 class App extends Component {
   render() {
     return (
@@ -24,6 +18,7 @@ class App extends Component {
                     <Link to="/Contact">Contact</Link>
                 </Navigation>
             </Header>
+
             <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">
               My Portfolio</Link>}>
                 <Navigation>
@@ -33,6 +28,7 @@ class App extends Component {
                     <Link to="/Contact">Contact</Link>
                 </Navigation>
             </Drawer>
+
             <Content>
                 <div className="page-content" />
                 <Main></Main>
